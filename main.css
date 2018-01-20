@@ -1,0 +1,96 @@
+.logo {
+	margin-right: 100px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+header p {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.appBar {
+	display: inline-block;
+	border-right: 2px solid tan;
+}
+
+.banner {
+	background: url(images/img/banner.png);
+	height: 335px;
+}
+
+section {
+	width:60%;
+	display: inline-block;
+	margin-left: 40px;
+	
+}
+
+h2 {
+	display: inline-block;
+	color: red;
+}
+
+h3 {
+	display: inline-block;
+}
+
+
+
+nav li { 
+display: inline-block;
+padding: 10px;
+background-color: tan;
+}
+
+
+
+.boxBottom {
+	background-color: tan;
+	width: 45%;
+	display: inline-block;
+	
+	
+}
+
+.smallBanner {
+	background: url(images/img/section-top.png);
+	width: 100%;
+	color: white;	
+}
+.smallBanner2 {
+	background: url(images/img/list-top.png);
+	width: 100%;
+	color: white;	
+}
+
+aside {
+	margin-right: 40px;
+	width: 25%;
+	float: right;
+	
+}
+
+.topAside {
+	background-color: tan;
+}
+
+.bottomAside {
+	background-color: #F5DEB3;
+	
+}
+
+
+a {
+	color: red;
+}
+
+ul {
+	list-style: none;
+}
+
