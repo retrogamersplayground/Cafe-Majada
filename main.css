@@ -54,6 +54,7 @@ nav li {
 display: inline-block;
 padding: 10px;
 background-color:  #ded4be;
+
 }
 
 
@@ -100,6 +101,7 @@ aside {
 
 aside ul{
 	padding: 0px;
+
 }
 	
 aside ul li img {
@@ -119,7 +121,7 @@ padding: 5px;
 
 
 a {
-	color: red;
+	color: #c02321;
 }
 
 ul {
