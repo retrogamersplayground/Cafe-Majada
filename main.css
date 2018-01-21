@@ -30,6 +30,7 @@ header p {
 }
 
 
+
 section {
 	width:60%;
 	display: inline-block;
@@ -44,6 +45,7 @@ h2 {
 
 h3 {
 	display: inline-block;
+	margin-left: 20px;
 }
 
 
@@ -69,10 +71,13 @@ background-color:  #ded4be;
 	width: 100%;
 	color: white;	
 }
-.smallBanner2 {
-	background: url(images/img/list-top.png);
-	width: 100%;
-	color: white;	
+
+
+
+
+.fa-thumbs-up {
+	margin-left: 20px;
+	font-size: 32px;
 }
 
 aside {
@@ -82,10 +87,26 @@ aside {
 	
 }
 
+.smallBanner2 {
+	background: url(images/img/list-top.png);
+	width: 100%;
+	color: white;	
+}
+
+.fa-check {
+	margin-left: 20px;
+	font-size: 32px;
+}
+
 aside ul{
 	padding: 0px;
 }
 	
+aside ul li img {
+margin-right: 10px;
+margin-left: 5px;
+padding: 5px;
+}
 
 .topAside {
 	background-color: tan;
