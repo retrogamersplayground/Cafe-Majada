@@ -1,3 +1,7 @@
+body{
+	background-color:  #fdfcf4;
+}
+
 .logo {
 	margin-right: 100px;
 	display: inline-block;
@@ -22,7 +26,9 @@ header p {
 .banner {
 	background: url(images/img/banner.png);
 	height: 335px;
+	margin-bottom: 20px;
 }
+
 
 section {
 	width:60%;
@@ -45,13 +51,13 @@ h3 {
 nav li { 
 display: inline-block;
 padding: 10px;
-background-color: tan;
+background-color:  #ded4be;
 }
 
 
 
 .boxBottom {
-	background-color: tan;
+	background-color:  #eee9df;
 	width: 45%;
 	display: inline-block;
 	
@@ -76,12 +82,17 @@ aside {
 	
 }
 
+aside ul{
+	padding: 0px;
+}
+	
+
 .topAside {
 	background-color: tan;
 }
 
 .bottomAside {
-	background-color: #F5DEB3;
+	background-color: #f9f7e9;
 	
 }
 
@@ -93,4 +104,3 @@ a {
 ul {
 	list-style: none;
 }
-
