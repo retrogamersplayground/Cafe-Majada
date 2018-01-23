@@ -28,7 +28,7 @@ header p {
 
 .appBar {
 	display: inline-block;
-	border-right: 2px solid tan;
+	border-right: 2px solid #ded4be;
 }
 
 input {
@@ -82,12 +82,18 @@ h3 {
 	font-size: 28px;
 }
 
-
+nav ul {
+	float: right;
+	margin: 0px;
+	margin-right: 10px;
+	
+}
 
 nav li { 
 display: inline-block;
-padding: 10px;
+padding: 20px;
 background-color:  #ded4be;
+border-right: 1px solid #c02321;
 
 }
 
@@ -141,6 +147,11 @@ aside ul{
 	padding: 0px;
 
 }
+
+
+aside li { background: #ded4be; }
+aside li:nth-child(odd) { background: #eee9df; 
+}
 	
 aside ul li img {
 margin-right: 10px;
@@ -149,13 +160,14 @@ padding: 5px;
 }
 
 .topAside {
-	background-color: tan;
+	background-color: blue;
 }
 
 .bottomAside {
 	background-color: #f9f7e9;
 	text-align: center;
 }
+
 
 
 a {
@@ -166,7 +178,9 @@ a {
 
 ul {
 	list-style: none;
+	
 }
+
 
 
 
