@@ -69,7 +69,7 @@ h1 {
 
 h2 {
 	display: inline-block;
-	color: red;
+	color: #c02321;
 	font-family: 'Kite One', sans-serif;
 	font-family: 'Nothing You Could Do', cursive;
 }
@@ -167,3 +167,28 @@ a {
 ul {
 	list-style: none;
 }
+
+
+
+  #pointer {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    background: white;
+	
+  }
+
+   #pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+          
+ 
+  
