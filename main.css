@@ -1,6 +1,8 @@
 body{
 	background-color:  #fdfcf4;
 	font-family: arial;
+	color: #ded4be;
+	
 }
 
 .logo {
@@ -17,6 +19,11 @@ header {
 header p {
 	display: inline-block;
 	margin-right: 50px;
+	font-family: 'Kite One', sans-serif;
+	font-family: 'Nothing You Could Do', cursive;
+
+	
+	
 }
 
 .appBar {
@@ -31,12 +38,18 @@ input {
 
 .banner {
 	background: url(images/img/banner.png);
+	width: 98%;
 	height: 335px;
 	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 40px;
+
 }
 
 .banner p {
 	font-family: 'Kite One', sans-serif;
+	color: #fdfcf4;
+
 }
 
 
@@ -46,6 +59,13 @@ section {
 	margin-left: 40px;
 	
 }
+
+h1 {
+	color: #fdfcf4;
+	font-family: 'Kite One', sans-serif;
+	font-family: 'Nothing You Could Do', cursive;
+}
+	
 
 h2 {
 	display: inline-block;
@@ -59,6 +79,7 @@ h3 {
 	margin-left: 20px;
 	font-family: 'Kite One', sans-serif;
 	font-family: 'Nothing You Could Do', cursive;
+	font-size: 28px;
 }
 
 
@@ -94,11 +115,15 @@ background-color:  #ded4be;
 	font-size: 32px;
 }
 
+section a {
+	float: right;
+}
+
 aside {
 	margin-right: 40px;
 	width: 25%;
 	float: right;
-	
+	position: relative;
 }
 
 .smallBanner2 {
@@ -129,12 +154,14 @@ padding: 5px;
 
 .bottomAside {
 	background-color: #f9f7e9;
-	
+	text-align: center;
 }
 
 
 a {
 	color: #c02321;
+	font-family: 'Kite One', sans-serif;
+	font-family: 'Nothing You Could Do', cursive;
 }
 
 ul {
