@@ -64,6 +64,7 @@ body {
 	display: inline-block;
 	margin-left: 20px;
 	padding-top: 20px;
+	vertical-align: middle;
 }
 
 .headerUl {
@@ -89,6 +90,25 @@ header {
 	margin-right: 20px;
 	border-right: 1px solid #ded4be;
 	padding-right: 10px;
+	vertical-align: middle;
+}
+
+.google {
+	vertical-align: middle;
+}
+
+.twitter {
+	vertical-align: middle;
+}
+
+.magnify {
+	vertical-align: middle;
+	margin-right: -15px;
+}
+
+.play {
+	vertical-align: middle;
+	margin-left: -20px;
 }
 
 .appBar {
@@ -101,8 +121,6 @@ header {
 input {
 	width: 100px;
 	height: 20px;
-	padding-top: 30px;
-	padding-bottom: 0px;
 	margin-right: 0px;
 	
 }
@@ -140,6 +158,11 @@ section {
 	
 }
 
+section ul {
+	padding: 0px;
+	height: 200px;
+}
+
 h1 {
 	color: #fdfcf4;
 	font-family: 'Kite One', sans-serif;
@@ -148,7 +171,7 @@ h1 {
 	padding-left: 50px;
 	padding-top: 50px;
 	padding-bottom: 20px;
-	
+	text-shadow: 2px 2px #000000;
 	
 }
 	
@@ -163,10 +186,10 @@ h2 {
 
 h3 {
 	display: inline-block;
-	margin-left: 20px;
 	font-family: 'Kite One', sans-serif;
 	font-family: 'Nothing You Could Do', cursive;
 	font-size: 28px;
+	margin-left: 10px;
 }
 
 nav ul {
@@ -193,9 +216,15 @@ nav li a {
 	font-size: 28px;
 }
 
+.bottom {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
 .boxBottom {
 	background-color:  #eee9df;
 	width: 45%;
+	height: 100%;
 	display: inline-block;
 	
 	
@@ -204,7 +233,9 @@ nav li a {
 .smallBanner {
 	background: url(images/img/section-top.png);
 	width: 100%;
-	color: white;	
+	color: white;
+	padding-bottom: 5px;
+	padding-top: 5px;	
 }
 
 
@@ -217,6 +248,13 @@ nav li a {
 
 section a {
 	float: right;
+	padding: 5px;
+}
+
+section p {
+	padding-top: 10px;
+	padding-right: 50px;
+	font-size: 20px;
 }
 
 aside {
@@ -247,20 +285,27 @@ aside ul{
 aside li { 
 	background: #ded4be; 
 	text-decoration: none;
+	
 }
 
 aside li a {
 	text-decoration: none;
+	font-size: 20px;
+
 }
 
 aside li:nth-child(odd) { 
 	background: #eee9df; 
+	
 }
 	
 aside ul li img {
 margin-right: 10px;
 margin-left: 5px;
 padding: 5px;
+vertical-align: middle;
+
+
 }
 
 .topAside {
