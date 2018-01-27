@@ -51,7 +51,8 @@ table {
 /* reset css */
 
 
-body{
+body {
+	
 	background-color:  #fdfcf4;
 	font-family: arial;
 	color: #ded4be;
@@ -62,6 +63,11 @@ body{
 	margin-right: 100px;
 	display: inline-block;
 	margin-left: 20px;
+	padding-top: 20px;
+}
+
+.something {
+	padding-bottom: 40px;
 }
 
 header {
@@ -72,6 +78,7 @@ header {
 header p {
 	display: inline-block;
 	margin-right: 50px;
+	
 	font-family: 'Kite One', sans-serif;
 	font-family: 'Nothing You Could Do', cursive;
 
@@ -84,25 +91,38 @@ header p {
 	border-right: 2px solid #ded4be;
 }
 
+.search {
+	display: inline-block;
+	
+}
+
 input {
 	width: 100px;
 	height: 20px;
+	
 }
 
 .banner {
 	background: url(images/img/banner.png);
-	width: 98%;
-	height: 335px;
+	background-repeat: no-repeat;
+	background-position: 10px 0px;
+	width: 100%;
+	height: 330px;
 	margin-bottom: 20px;
-	padding-top: 20px;
-	padding-left: 40px;
-
+	margin-top: 20px;
 }
 
 .banner p {
 	font-family: 'Kite One', sans-serif;
 	color: #fdfcf4;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	
+}
 
+.bannerP {
+	width: 42%;
 }
 
 
@@ -117,6 +137,12 @@ h1 {
 	color: #fdfcf4;
 	font-family: 'Kite One', sans-serif;
 	font-family: 'Nothing You Could Do', cursive;
+	font-size: 32px;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	
+	
 }
 	
 
@@ -125,6 +151,7 @@ h2 {
 	color: #c02321;
 	font-family: 'Kite One', sans-serif;
 	font-family: 'Nothing You Could Do', cursive;
+	font-size: 32px;
 }
 
 h3 {
@@ -138,23 +165,26 @@ h3 {
 nav ul {
 	float: right;
 	margin: 0px;
-
-	
+	margin-top: 7px;
+	margin-right: 18px;
 }
 
 nav li { 
 display: inline-block;
-padding-right: 50px;
-padding-left: 50px;
-padding-top:  20px;
+padding-right: 46px;
+padding-left: 46px;
+padding-top:  30px;
 padding-bottom: 20px;
+
 margin: -2px;
 background-color:  #ded4be;
 border-right: 1px solid #c02321;
 
 }
 
-
+nav li a {
+	font-size: 28px;
+}
 
 .boxBottom {
 	background-color:  #eee9df;
@@ -192,7 +222,8 @@ aside {
 .smallBanner2 {
 	background: url(images/img/list-top.png);
 	width: 100%;
-	color: white;	
+	color: white;
+	
 }
 
 .fa-check {
@@ -202,12 +233,21 @@ aside {
 
 aside ul{
 	padding: 0px;
-
+	text-decoration: none;
 }
 
 
-aside li { background: #ded4be; }
-aside li:nth-child(odd) { background: #eee9df; 
+aside li { 
+	background: #ded4be; 
+	text-decoration: none;
+}
+
+aside li a {
+	text-decoration: none;
+}
+
+aside li:nth-child(odd) { 
+	background: #eee9df; 
 }
 	
 aside ul li img {
@@ -246,7 +286,8 @@ ul {
     height: 40px;
     position: relative;
     background: white;
-	
+	margin-left: 70px;
+	margin-bottom: 25px;
   }
 
    #pointer:before {
