@@ -87,7 +87,7 @@ header {
 }
 
 .facebook {
-	margin-right: 20px;
+	margin-right: 10px;
 	border-right: 1px solid #ded4be;
 	padding-right: 10px;
 	vertical-align: middle;
@@ -119,7 +119,7 @@ header {
 
 
 input {
-	width: 100px;
+	width: 120px;
 	height: 20px;
 	margin-right: 0px;
 	
@@ -158,6 +158,10 @@ section {
 	
 }
 
+.dot {
+	vertical-align: middle;
+}
+
 section ul {
 	padding: 0px;
 	height: 200px;
@@ -182,6 +186,7 @@ h2 {
 	font-family: 'Kite One', sans-serif;
 	font-family: 'Nothing You Could Do', cursive;
 	font-size: 32px;
+	vertical-align: middle;
 }
 
 h3 {
@@ -197,45 +202,50 @@ nav ul {
 	margin: 0px;
 	margin-top: 7px;
 	margin-right: 18px;
+
 }
 
 nav li { 
-display: inline-block;
-padding-right: 46px;
-padding-left: 46px;
-padding-top:  30px;
-padding-bottom: 20px;
-
-margin: -2px;
-background-color:  #ded4be;
-border-right: 1px solid #c02321;
-
+	display: inline-block;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top:  30px;
+	padding-bottom: 20px;
+	margin: -2px;
+	background-color:  #ded4be;
+	border-right: 1px solid #c02321;
+}
+nav .lastLi {
+	padding-right: 100px;
+	border-right: none;
 }
 
 nav li a {
 	font-size: 28px;
+	text-decoration: none;
 }
 
 .bottom {
 	margin-top: 50px;
 	margin-bottom: 100px;
+	display: inline-block;
 }
 
 .boxBottom {
 	background-color:  #eee9df;
 	width: 45%;
 	height: 100%;
-	display: inline-block;
-	
-	
+	display: inline-block;	
 }
+
+
 
 .smallBanner {
 	background: url(images/img/section-top.png);
 	width: 100%;
 	color: white;
-	padding-bottom: 5px;
-	padding-top: 5px;	
+	padding-bottom: 10px;
+	padding-top: 10px;	
 }
 
 
@@ -249,6 +259,7 @@ nav li a {
 section a {
 	float: right;
 	padding: 5px;
+	margin-top: 40px;
 }
 
 section p {
@@ -268,6 +279,8 @@ aside {
 	background: url(images/img/list-top.png);
 	width: 100%;
 	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
 	
 }
 
@@ -279,18 +292,22 @@ aside {
 aside ul{
 	padding: 0px;
 	text-decoration: none;
+	margin-bottom: 30px;
 }
 
 
 aside li { 
 	background: #ded4be; 
 	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	
 }
 
 aside li a {
 	text-decoration: none;
 	font-size: 20px;
+	
 
 }
 
@@ -308,6 +325,10 @@ vertical-align: middle;
 
 }
 
+.lastListItem{
+	padding-left: 10px;
+}
+
 .topAside {
 	background-color: blue;
 }
@@ -315,9 +336,17 @@ vertical-align: middle;
 .bottomAside {
 	background-color: #f9f7e9;
 	text-align: center;
+	width: 200px;
+	padding: 10px;
+	margin: auto;
 }
 
-
+.bottomAside img {
+	width: 40%;
+	margin: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
 
 a {
 	color: #c02321;
@@ -340,6 +369,7 @@ ul {
     background: white;
 	margin-left: 70px;
 	margin-bottom: 25px;
+	vertical-align: middle;
   }
 
    #pointer:before {
@@ -354,5 +384,10 @@ ul {
     border-bottom: 20px solid transparent;
   }
           
+ .pointer{
+	 margin-top: 10px;
+ }
  
-  
+ .clear {
+	 clear: left;
+ }
