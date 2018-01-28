@@ -28,6 +28,18 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
 body {
 	line-height: 1;
 }
@@ -169,6 +181,8 @@ section {
 section ul {
 	padding: 0px;
 	height: 200px;
+	margin-top: 75px;
+	margin-bottom: 100px;
 }
 
 h1 {
@@ -232,11 +246,12 @@ nav li a {
 
 
 .boxBottom {
-	background-color:  #eee9df;
+	background-color: #eee9df;
 	width: 45%;
 	display: inline-block;
-	margin-top: 75px;
-	margin-bottom: 100px;
+	box-sizing: inherit;
+	float: left;
+	margin-right: 20px;
 }
 
 .boxBottom p {
@@ -244,7 +259,18 @@ nav li a {
 	padding-right: 10px;
 }
 
+.boxBottom2 {
+	background-color: #eee9df;
+	width: 45%;
+	display: inline-block;
+	box-sizing: inherit;
+	float: left;
+}
 
+.boxBottom2 p {
+	padding-left: 20px;
+	padding-right: 10px;
+}
 
 .smallBanner {
 	background: url(images/img/section-top.png);
