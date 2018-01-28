@@ -150,6 +150,10 @@ input {
 	width: 42%;
 }
 
+.forside {
+	color: white;
+	text-shadow: 2px 2px #000000;
+}
 
 section {
 	width:60%;
