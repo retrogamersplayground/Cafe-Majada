@@ -225,17 +225,19 @@ nav li a {
 	text-decoration: none;
 }
 
-.bottom {
-	margin-top: 50px;
-	margin-bottom: 100px;
-	display: inline-block;
-}
+
 
 .boxBottom {
 	background-color:  #eee9df;
 	width: 45%;
-	height: 100%;
-	display: inline-block;	
+	display: inline-block;
+	margin-top: 75px;
+	margin-bottom: 100px;
+}
+
+.boxBottom p {
+	padding-left: 20px;
+	padding-right: 10px;
 }
 
 
@@ -256,10 +258,16 @@ nav li a {
 	font-size: 32px;
 }
 
-section a {
+.firstA{
 	float: right;
 	padding: 5px;
-	margin-top: 40px;
+	margin-top: 30px;
+}
+
+.secondA{
+	float: right;
+	padding: 5px;
+	margin-top: 50px;
 }
 
 section p {
@@ -269,7 +277,7 @@ section p {
 }
 
 aside {
-	margin-right: 40px;
+	margin-right: 50px;
 	width: 25%;
 	float: right;
 	position: relative;
@@ -299,14 +307,14 @@ aside ul{
 aside li { 
 	background: #ded4be; 
 	text-decoration: none;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	
 }
 
 aside li a {
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 25px;
 	
 
 }
@@ -329,9 +337,7 @@ vertical-align: middle;
 	padding-left: 10px;
 }
 
-.topAside {
-	background-color: blue;
-}
+
 
 .bottomAside {
 	background-color: #f9f7e9;
@@ -386,8 +392,7 @@ ul {
           
  .pointer{
 	 margin-top: 10px;
+	 font-size: 26px;
+	 margin-left: 10px;
  }
  
- .clear {
-	 clear: left;
- }
